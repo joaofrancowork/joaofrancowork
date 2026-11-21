@@ -1,4 +1,4 @@
-# Hi, I'm João 👋
+# Hi, I'm João 
 
 **AI Engineer** with a product and UX background · Founder of [ELEVA](https://www.eleva-ai.pt) · Portugal 🇵🇹
 
