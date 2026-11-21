@@ -36,9 +36,10 @@ booking, answering, following up.
 | [**multi-agent-sales-assistant**](https://github.com/joaofrancowork/multi-agent-sales-assistant) | Three Claude agents (research → qualify → write) with typed hand-offs, a hand-rolled tool-use runtime, deterministic guardrails, traces, prompt caching and evals against labels |
 | [**rag-docs-assistant**](https://github.com/joaofrancowork/rag-docs-assistant) | RAG over PDFs: hybrid BM25 + dense retrieval with RRF, reranking, Claude/OpenAI behind one interface, cited answers, an eval harness in CI, FastAPI, Docker |
 | [**lead-scoring-ml**](https://github.com/joaofrancowork/lead-scoring-ml) | scikit-learn on 41k real sales contacts: leakage removal, out-of-time validation and rolling backtests, calibration, MLflow, PSI drift monitoring, CI quality gate |
+| [**mcp-server-toolkit**](https://github.com/joaofrancowork/mcp-server-toolkit) | TypeScript MCP server with data tools for agents (read-only SQL, CSV profiling, SSRF-safe fetch), sandboxed and tested against prompt-injection-driven attacks, audit log, released |
+| [**llm-finetune-lab**](https://github.com/joaofrancowork/llm-finetune-lab) | LoRA fine-tuning of Qwen2.5-0.5B: zero-shot 15.5% → 90.8%, measured against a 91.0% classical baseline, with error analysis; plain PyTorch on Apple MPS / CUDA |
 | [**recommender-system**](https://github.com/joaofrancowork/recommender-system) | MovieLens: implicit ALS from scratch, item-kNN, content embeddings and a cold-start hybrid, temporal evaluation, explainable recommendations, FastAPI |
-
-More on the way: an MCP server toolkit, LoRA fine-tuning and a voice/video pipeline.
+| [**voice-demo-generator**](https://github.com/joaofrancowork/voice-demo-generator) | YAML script → narrated demo video: ElevenLabs TTS with consent-gated voice cloning, Whisper-aligned captions, automatic narration-vs-script check, ffmpeg 16:9 + 9:16 |
 
 ---
 
